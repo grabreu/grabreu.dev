@@ -54,14 +54,18 @@ Astro has no dynamic skill-loading tool (unlike TanStack's `@tanstack/intent`, u
 
 ### Source
 
-Standard Astro project layout (`src/pages/`, `src/components/`, `public/`). Still minimal: scaffold + Tailwind only, no page content or components built yet.
+Standard Astro project layout:
+
+- `src/pages/index.astro` (EN, default locale) and `src/pages/pt/index.astro` (PT), per `astro:i18n` with `prefixDefaultLocale: false`.
+- `src/layouts/PageLayout.astro`: shared page shell.
+- `src/components/`: `Sidebar`, `Section`, `ExperienceItem`, `ProjectItem`, `SocialLinks`, `SiteFooter`.
+- `src/data/content.ts`: typed `SiteContent` objects (`en`/`pt`) holding all copy, experience, and project entries. Add or edit content here, not in the `.astro` files.
+- `public/`: favicon and Open Graph images (`og-image-en.png`, `og-image-pt.png`).
 
 ### Validation
 
-Run `pnpm biome check .` before considering a change done.
+Run `pnpm check` (Biome format + lint) before considering a change done.
 
 ### Open Questions
 
-- TODO: CI/CD not wired up yet: lint + build on PR/push to `main`, `wrangler deploy` to Cloudflare Workers on merge, per the portfolio's standard practices.
-- TODO: page content (hero/bio, project cards, "Currently Building" teaser, contact) not written yet.
-- TODO: i18n routing (`astro:i18n`, EN default / PT toggle) not configured yet.
+- TODO: `/resume.pdf` is linked from `PageLayout.astro` but the file doesn't exist in `public/`.

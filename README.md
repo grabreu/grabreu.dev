@@ -21,7 +21,7 @@ pnpm install
 pnpm dev
 ```
 
-Other scripts: `pnpm biome check .` (lint/format), `pnpm build`, `pnpm preview`, `pnpm deploy`.
+Other scripts: `pnpm check` (lint/format), `pnpm build`, `pnpm preview`, `pnpm deploy`.
 
 ## Deployment
 
