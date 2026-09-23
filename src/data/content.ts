@@ -221,7 +221,7 @@ export const content: Record<"en" | "pt", SiteContent> = {
     projectsHeading: "Projects",
     projects,
     viewAllProjects: "View All Projects on GitHub",
-    demoLabel: "Live Demo",
+    demoLabel: "Visit",
     sourceLabel: "Source",
     footer:
       "Designed and built by Gabriel Abreu. Coded with Astro and Tailwind CSS, deployed on Cloudflare Workers.",
@@ -253,10 +253,10 @@ export const content: Record<"en" | "pt", SiteContent> = {
     projectsHeading: "Projetos",
     projects: projectsPt,
     viewAllProjects: "Ver todos os projetos no GitHub",
-    demoLabel: "Demo ao Vivo",
+    demoLabel: "Visitar",
     sourceLabel: "Código-fonte",
     footer:
-      "Desenhado e construído por Gabriel Abreu. Codificado com Astro e Tailwind CSS, hospedado no Cloudflare Workers.",
+      "Desenhado e construído por Gabriel Abreu. Feito com Astro e Tailwind CSS, hospedado no Cloudflare Workers.",
     langSwitchLabel: "English",
     langSwitchHref: "/",
   },
