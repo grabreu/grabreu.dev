@@ -6,7 +6,7 @@
 
 My personal site — links out to what I've built and how to reach me.
 
-**[grabreu.dev →](https://grabreu.dev)**
+**[Try it live →](https://grabreu.dev)**
 
 ## Tech stack
 
