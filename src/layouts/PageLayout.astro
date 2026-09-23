@@ -12,6 +12,9 @@ interface Props {
 }
 
 const { content: c } = Astro.props;
+
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL(`/og-image-${c.lang}.png`, Astro.site);
 ---
 
 <html lang={c.lang}>
@@ -22,6 +25,12 @@ const { content: c } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{c.name} · {c.role}</title>
     <meta name="description" content={c.tagline} />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={`${c.name} · ${c.role}`} />
+    <meta property="og:description" content={c.tagline} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImage} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

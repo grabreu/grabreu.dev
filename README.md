@@ -4,7 +4,7 @@
 [![CD](https://github.com/grabreu/grabreu.dev/actions/workflows/cd.yml/badge.svg?branch=main)](https://github.com/grabreu/grabreu.dev/actions/workflows/cd.yml)
 [![License](https://img.shields.io/github/license/grabreu/grabreu.dev?style=flat-square)](LICENSE)
 
-My personal site — links out to what I've built and how to reach me.
+My personal site: links out to what I've built and how to reach me.
 
 **[Try it live →](https://grabreu.dev)**
 

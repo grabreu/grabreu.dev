@@ -40,7 +40,7 @@ export interface SiteContent {
 const experience: Experience[] = [
   {
     period: "2020 — 2026",
-    role: "Software Engineer",
+    role: "Software Developer",
     company: "Ambev Tech",
     description:
       "Built and maintained full-stack logistics systems used across Brazil, Latin America, Canada, and Africa. Worked on architecture decisions, code reviews, incident response, CI/CD, and production troubleshooting.",
@@ -59,7 +59,7 @@ const experience: Experience[] = [
 const experiencePt: Experience[] = [
   {
     period: "2020 — 2026",
-    role: "Software Engineer",
+    role: "Desenvolvedor de Software",
     company: "Ambev Tech",
     description:
       "Desenvolvi e mantive sistemas de logística usados em múltiplas regiões (Brasil, LAS, Canadá, África). Atuei em decisões de arquitetura, revisões de código, resposta a incidentes, CI/CD e troubleshooting em produção.",
@@ -183,9 +183,9 @@ export const content: Record<"en" | "pt", SiteContent> = {
   en: {
     lang: "en",
     name: "Gabriel Abreu",
-    role: "Software Engineer",
+    role: "Software Developer",
     tagline:
-      "Fullstack Developer building cloud-native apps with .NET & React. Open to remote opportunities.",
+      "Full-Stack Software Developer building cloud-native apps with .NET & React. Open to remote opportunities.",
     nav: [
       { href: "#about", label: "About" },
       { href: "#experience", label: "Experience" },
@@ -193,11 +193,11 @@ export const content: Record<"en" | "pt", SiteContent> = {
     ],
     aboutHeading: "About",
     about: [
-      "Software Engineer with 6+ years of experience building full-stack applications with .NET and React, primarily in logistics and cloud environments.",
+      "Software Developer with 6+ years of experience building full-stack applications with .NET and React, primarily in logistics and cloud environments.",
       "I like owning the whole path of a feature: the design discussion, the code, the tests, the pipeline, and what happens after it ships. I've spent a fair share of time in production incidents, reading logs and metrics until the root cause shows up, and that shapes how I write code in the first place.",
       "Lately I've been building independent projects exploring different stacks and architectures. You'll find them below.",
       "Main stack: .NET, Python, React, SQL Server, PostgreSQL, Azure, and Cloudflare.",
-      "Currently open to remote Software Engineer and Full-Stack opportunities, including international teams.",
+      "Currently open to remote Software Developer and Full-Stack opportunities, including international teams.",
     ],
     experienceHeading: "Experience",
     experience,
@@ -215,9 +215,9 @@ export const content: Record<"en" | "pt", SiteContent> = {
   pt: {
     lang: "pt",
     name: "Gabriel Abreu",
-    role: "Software Engineer",
+    role: "Desenvolvedor de Software",
     tagline:
-      "Desenvolvedor Fullstack construindo aplicações cloud-native com .NET & React. Aberto a oportunidades remotas.",
+      "Desenvolvedor de Software Full-Stack construindo aplicações cloud-native com .NET & React. Aberto a oportunidades remotas.",
     nav: [
       { href: "#about", label: "Sobre" },
       { href: "#experience", label: "Experiência" },
@@ -225,11 +225,11 @@ export const content: Record<"en" | "pt", SiteContent> = {
     ],
     aboutHeading: "Sobre",
     about: [
-      "Software Engineer com mais de 6 anos de experiência construindo aplicações full-stack com .NET e React, principalmente em ambientes de logística e cloud.",
+      "Desenvolvedor de Software com mais de 6 anos de experiência construindo aplicações full-stack com .NET e React, principalmente em ambientes de logística e cloud.",
       "Gosto de acompanhar o caminho inteiro de uma feature: a discussão de design, o código, os testes, o pipeline, e o que acontece depois que ela vai pro ar. Passei boa parte do tempo em incidentes de produção, lendo logs e métricas até achar a causa raiz, e isso molda como eu escrevo código desde o início.",
       "Ultimamente venho construindo projetos independentes explorando diferentes stacks e arquiteturas. Você encontra abaixo.",
       "Stack principal: .NET, Python, React, SQL Server, PostgreSQL, Azure e Cloudflare.",
-      "Atualmente aberto a oportunidades remotas de Software Engineer e Full-Stack, incluindo times internacionais.",
+      "Atualmente aberto a oportunidades remotas de Desenvolvedor de Software e Full-Stack, incluindo times internacionais.",
     ],
     experienceHeading: "Experiência",
     experience: experiencePt,
