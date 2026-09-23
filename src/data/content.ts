@@ -125,6 +125,14 @@ const projects: Project[] = [
     tags: ["Python", "Spotify API", "CLI"],
     sourceHref: "https://github.com/grabreu/spotify-cli",
   },
+  {
+    name: "grabreu.dev",
+    description:
+      "This site. Personal portfolio with EN/PT i18n, built with Astro and Tailwind CSS, deployed on Cloudflare Workers via GitHub Actions.",
+    tags: ["Astro", "Tailwind CSS", "Cloudflare Workers", "i18n"],
+    demoHref: "https://grabreu.dev",
+    sourceHref: "https://github.com/grabreu/grabreu.dev",
+  },
 ];
 
 const projectsPt: Project[] = [
@@ -176,6 +184,14 @@ const projectsPt: Project[] = [
       "CLI interativa que exporta uma playlist do Spotify que você possui ou colabora, ou suas Liked Songs, em CSV ou JSON.",
     tags: ["Python", "Spotify API", "CLI"],
     sourceHref: "https://github.com/grabreu/spotify-cli",
+  },
+  {
+    name: "grabreu.dev",
+    description:
+      "Este site. Portfólio pessoal com i18n EN/PT, construído com Astro e Tailwind CSS, hospedado no Cloudflare Workers via GitHub Actions.",
+    tags: ["Astro", "Tailwind CSS", "Cloudflare Workers", "i18n"],
+    demoHref: "https://grabreu.dev",
+    sourceHref: "https://github.com/grabreu/grabreu.dev",
   },
 ];
 
