@@ -67,7 +67,7 @@ const experiencePt: Experience[] = [
   },
   {
     period: "2019 — 2020",
-    role: "Application Support Intern",
+    role: "Estagiário de Suporte",
     company: "Ambev Tech",
     description:
       "Dei suporte a parceiros revendedores usando os sistemas de logística da empresa via Movidesk, investigando problemas direto no sistema e por queries SQL, e mantendo stored procedures e scripts usados em relatórios de BI.",
@@ -254,7 +254,7 @@ export const content: Record<"en" | "pt", SiteContent> = {
     projects: projectsPt,
     viewAllProjects: "Ver todos os projetos no GitHub",
     demoLabel: "Demo ao Vivo",
-    sourceLabel: "Código",
+    sourceLabel: "Código-fonte",
     footer:
       "Desenhado e construído por Gabriel Abreu. Codificado com Astro e Tailwind CSS, hospedado no Cloudflare Workers.",
     langSwitchLabel: "English",
