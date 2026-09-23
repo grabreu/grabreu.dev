@@ -40,7 +40,7 @@ export interface SiteContent {
 const experience: Experience[] = [
   {
     period: "2020 — 2026",
-    role: "Software Engineer",
+    role: "Software Developer",
     company: "Ambev Tech",
     description:
       "Built and maintained full-stack logistics systems used across Brazil, Latin America, Canada, and Africa. Worked on architecture decisions, code reviews, incident response, CI/CD, and production troubleshooting.",
@@ -59,7 +59,7 @@ const experience: Experience[] = [
 const experiencePt: Experience[] = [
   {
     period: "2020 — 2026",
-    role: "Software Engineer",
+    role: "Desenvolvedor de Software",
     company: "Ambev Tech",
     description:
       "Desenvolvi e mantive sistemas de logística usados em múltiplas regiões (Brasil, LAS, Canadá, África). Atuei em decisões de arquitetura, revisões de código, resposta a incidentes, CI/CD e troubleshooting em produção.",
@@ -183,7 +183,7 @@ export const content: Record<"en" | "pt", SiteContent> = {
   en: {
     lang: "en",
     name: "Gabriel Abreu",
-    role: "Software Engineer",
+    role: "Software Developer",
     tagline:
       "Fullstack Developer building cloud-native apps with .NET & React. Open to remote opportunities.",
     nav: [
@@ -215,7 +215,7 @@ export const content: Record<"en" | "pt", SiteContent> = {
   pt: {
     lang: "pt",
     name: "Gabriel Abreu",
-    role: "Software Engineer",
+    role: "Desenvolvedor de Software",
     tagline:
       "Desenvolvedor Fullstack construindo aplicações cloud-native com .NET & React. Aberto a oportunidades remotas.",
     nav: [
