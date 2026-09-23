@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@theme {
+  --color-canvas: #141a21;
+  --color-surface: #1b232c;
+  --color-ink: #e4e8ec;
+  --color-muted: #98a3af;
+  --color-line: #2e3945;
+  --color-signal: #f2b705;
+  --color-route: #7fa8d1;
+  --font-sans: "Schibsted Grotesk", ui-sans-serif, system-ui, sans-serif;
+}
