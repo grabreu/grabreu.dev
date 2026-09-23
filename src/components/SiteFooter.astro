@@ -1,0 +1,11 @@
+---
+interface Props {
+  text: string;
+}
+
+const { text } = Astro.props;
+---
+
+<footer class="max-w-md pb-16 text-sm text-muted sm:pb-0">
+	<p>{text}</p>
+</footer>

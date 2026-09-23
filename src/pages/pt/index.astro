@@ -1,19 +1,6 @@
 ---
-import { getRelativeLocaleUrl } from "astro:i18n";
-
-const enUrl = getRelativeLocaleUrl("en");
+import { content } from "../../data/content";
+import PageLayout from "../../layouts/PageLayout.astro";
 ---
 
-<html lang="pt">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>grabreu.dev</title>
-	</head>
-	<body>
-		<h1>Olá (PT)</h1>
-		<a href={enUrl}>English</a>
-	</body>
-</html>
+<PageLayout content={content.pt} />
