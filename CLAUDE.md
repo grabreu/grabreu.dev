@@ -65,7 +65,3 @@ Standard Astro project layout:
 ### Validation
 
 Run `pnpm check` (Biome format + lint) before considering a change done.
-
-### Open Questions
-
-- TODO: `/resume.pdf` is linked from `PageLayout.astro` but the file doesn't exist in `public/`.
