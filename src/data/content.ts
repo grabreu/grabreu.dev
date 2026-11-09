@@ -77,6 +77,22 @@ const experiencePt: Experience[] = [
 
 const projects: Project[] = [
   {
+    name: "crew-tasks",
+    description:
+      "Backend for collaborative to-do lists shared by small groups. Modular monolith with passwordless email sign-in, invite links, and optimistic concurrency.",
+    tags: [".NET 10", "Vertical Slice", "EF Core", "Azure Container Apps"],
+    demoHref: "https://crew-tasks.grabreu.dev",
+    sourceHref: "https://github.com/grabreu/crew-tasks",
+  },
+  {
+    name: "product-catalog",
+    description:
+      "Backend-only reference API for a product catalog. Vertical Slice + CQRS on .NET 10, Aspire for local orchestration, Bicep for the infrastructure.",
+    tags: [".NET 10", "CQRS", "Aspire", "Bicep"],
+    demoHref: "https://product-catalog.grabreu.dev",
+    sourceHref: "https://github.com/grabreu/product-catalog",
+  },
+  {
     name: "slug-pages",
     description:
       "Anonymous, no-login scratchpad. Visit any URL and start typing. Autosaves as you type, with optional Markdown support.",
@@ -136,6 +152,22 @@ const projects: Project[] = [
 ];
 
 const projectsPt: Project[] = [
+  {
+    name: "crew-tasks",
+    description:
+      "Backend para listas de tarefas colaborativas compartilhadas por pequenos grupos. Monolito modular com login por email sem senha, links de convite e concorrência otimista.",
+    tags: [".NET 10", "Vertical Slice", "EF Core", "Azure Container Apps"],
+    demoHref: "https://crew-tasks.grabreu.dev",
+    sourceHref: "https://github.com/grabreu/crew-tasks",
+  },
+  {
+    name: "product-catalog",
+    description:
+      "API de referência, somente backend, para um catálogo de produtos. Vertical Slice + CQRS no .NET 10, Aspire para orquestração local e Bicep para a infraestrutura.",
+    tags: [".NET 10", "CQRS", "Aspire", "Bicep"],
+    demoHref: "https://product-catalog.grabreu.dev",
+    sourceHref: "https://github.com/grabreu/product-catalog",
+  },
   {
     name: "slug-pages",
     description:
