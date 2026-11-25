@@ -17,12 +17,12 @@
     "lint": "biome lint"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.3.3",
-    "astro": "^7.3.4",
-    "tailwindcss": "^4.3.3"
+    "@tailwindcss/vite": "^4.3.5",
+    "astro": "^7.4.13",
+    "tailwindcss": "^4.3.5"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.14",
-    "wrangler": "^4.137.0"
+    "@biomejs/biome": "2.6.8",
+    "wrangler": "^4.166.0"
   }
 }
